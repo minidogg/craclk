@@ -1,0 +1,26 @@
+.button-outlined, .button-filled{
+    all:unset;
+    display:inline-block;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:1rem;
+    font-weight:600;
+    righ-margin:10px;
+
+    transition:background-color 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+.button-outlined:hover, .button-filled:hover{
+    cursor:pointer;
+}
+
+.button-outlined{
+    border:3px solid rgba(255,255,255,0.3);
+    color:white;
+}
+.button-outlined:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.button-filled:hover{
+    filter:brightness(1.2);
+}

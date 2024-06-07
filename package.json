@@ -1,0 +1,18 @@
+{
+  "name": "craclk",
+  "version": "1.0.0",
+  "description": "A discord clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:client": "cd craclk && npm run dev",
+    "dev:server": "cd express && npm run dev",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

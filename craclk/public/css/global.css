@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'Archivo';
+    src:url('/fonts/archivo.ttf')
+}
+
+:root{
+    --background-color:#555;
+}
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: var(--background-color);
+}
+.archivo, .archivo>*{
+    font-family: 'Archivo', Arial, Helvetica, sans-serif;
+}
+.black{
+    color:black;
+}
+
+hr{
+    display:block;
+    width:98%;
+    margin:auto;
+}
+
+
