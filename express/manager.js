@@ -36,7 +36,10 @@ export async function waitUntilConnected(){
 
 export async function test(){
     // let d = await creation.createUser("abcd","abCD1234","")
-    let d = await creation.createServer("The Warehouse")
-    console.log(d)
+    // let d = await creation.createServer("The Warehouse")
+    // console.log(d)
 }
 
+export function getCreationJs(){
+    return creation
+}

@@ -20,7 +20,8 @@ const serverSchema = new mongoose.Schema({
   name: { type: String, required: true },
   channels: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Channel' }],
   members: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
-  invite: {type: String,required:false,unique:true}
+  invite: {type: String,required:false,unique:true},
+  owner: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required:false }
   // Additional fields as needed
 });
 
